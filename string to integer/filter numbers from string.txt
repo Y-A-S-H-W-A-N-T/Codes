@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string num;
+    cin>>num;
+    int a=0;
+    vector<int> arr;
+    for(char c : num)
+    {
+        if(c=='0')a=a*10+0;
+        if(c=='1')a=a*10+1;
+        if(c=='2')a=a*10+2;
+        if(c=='3')a=a*10+3;
+        if(c=='4')a=a*10+4;
+        if(c=='5')a=a*10+5;
+        if(c=='6')a=a*10+6;
+        if(c=='7')a=a*10+7;
+        if(c=='8')a=a*10+8;
+        if(c=='9')a=a*10+9;
+    }
+    cout<<a;
+}
